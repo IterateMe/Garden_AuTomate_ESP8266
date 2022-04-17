@@ -3,7 +3,7 @@
 
 ### This is a simple watering scheduler project based on a cheap ESP8266 that you can control from anywhere, thanks to Azure IoT Hub.
 
-<br> This project is the new iteration of my very first project computer science:  
+<br> This project is the new iteration of my very first project in computer science:  
 
 |              | First version | New Version |
 | ------------ | :-----------: | :---------: |
@@ -24,13 +24,15 @@
 
 ## Test the result with Azure IoT Explorer  
 - Connect LEDs to the 3 output pins
+- Open the serial monitor from the Arduino IDE after you pushed the code on the device
 - [Install and settup Azure IoT Explorer](https://docs.microsoft.com/en-us/azure/iot-fundamentals/howto-use-iot-explorer)
 - Send these commands:  
   ```bash
-    turnOn1:
+  turnOn1:
   ```  
+  wait for it... wait for it ...
   ```bash
-    turnOff1:
+  turnOff1:
   ```  
 
 ## References 
