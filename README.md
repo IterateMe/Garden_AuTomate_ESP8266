@@ -22,8 +22,16 @@
 - Select the adequate COM port in <Tools -> Port -> COM{x}> menu bar  
 - Push the code in the ESP8266
 
-## Test the result with Azure IoT Explorer
-
+## Test the result with Azure IoT Explorer  
+- Connect LEDs to the 3 output pins
+- [Install and settup Azure IoT Explorer](https://docs.microsoft.com/en-us/azure/iot-fundamentals/howto-use-iot-explorer)
+- Send these commands:  
+  ```bash
+    turnOn1:
+  ```  
+  ```bash
+    turnOff1:
+  ```  
 
 ## References 
 - [Azure_SDK_Embeded_C_Doc](https://azuresdkdocs.blob.core.windows.net/$web/c/az_iot/1.1.0/globals_func.html#index_c)
